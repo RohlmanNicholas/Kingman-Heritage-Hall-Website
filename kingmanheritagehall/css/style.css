@@ -1,0 +1,303 @@
+@charset "utf-8";
+.heading {
+  font-style: normal;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+/* Base CSS */
+body {
+  margin: 0em;
+  background-color: #2F2522;
+}
+footer {
+  background-color: #000000;
+  padding-top: 3vw;
+  padding-left: 4.33vw;
+  padding-right: 3vw;
+  padding-bottom: 4.33vw;
+}
+/* Universal Navigation CSS */
+#navbar {
+  padding-bottom: 3vw;
+  padding-top: 3vw;
+  width: 100%;
+  transition: 1s;
+  position: fixed;
+  overflow: hidden;
+  z-index: 99;
+}
+#navbar_nav-link-container {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  width: 100%;
+}
+.navbar_nav-link-container_nav-item {
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  text-decoration: none;
+  color: #FFFFFF;
+  letter-spacing: 0.2vw;
+  text-shadow: -2px 2px 2px #000000;
+}
+.navbar_nav-link-container_nav-item:hover {
+  color: #FFFFFF;
+  opacity: 0.4;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.navbar_nav-link-container_nav-item:not(:hover) {
+  transition: 0.3s;
+}
+#navbar_nav-link-container_nav-item_button {
+  background-color: transparent;
+  border: transparent;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  text-decoration: none;
+  color: #FFFFFF;
+  letter-spacing: 0.2vw;
+  text-shadow: -2px 2px 2px #000000;
+}
+#navbar_nav-link-container_nav-item_button:hover {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+#navbar_nav-link-container_nav-item_button:not(:hover) {
+  transition: 0.3s;
+}
+/* Universal Image CSS */
+#banner {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+/* Index CSS */
+#index_text-container {
+  text-align: center;
+  margin: auto;
+  margin-top: auto;
+  color: #FFFFFF;
+  z-index: 2;
+  width: 50em;
+  padding: 2em;
+}
+/* Board CSS */
+#board_text-container {
+  text-align: left;
+  margin: auto;
+  margin-top: 1vw;
+  color: #FFFFFF;
+  z-index: 2;
+  width: 55em;
+  padding: 2em;
+}
+/* Sponsors CSS */
+#sponsors_text-container {
+  text-align: center;
+  margin: auto;
+  margin-top: 1vw;
+  color: #FFFFFF;
+  z-index: 2;
+  width: 100em;
+  padding: 2em;
+}
+#benefactors-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+#gold_benefactor-ribbon-gold {
+  display: block;
+}
+#silver_benefactors-flex {
+  display: flex;
+  justify-content: space-around
+}
+#benefactors-flex_left {
+  float: left;
+}
+#benefactors-flex_right {
+  float: right;
+}
+.sponsor-name {
+  color: #FFFFFF;
+}
+.sponsor-location {
+  font-size: 0.7em;
+}
+/* Donation CSS */
+#donate_text-container {
+  padding: 2em;
+  color: #FFFFFF;
+  text-align: center;
+}
+#donation-form {
+  width: 50%;
+  padding: 2em;
+}
+/* Nomination CSS */
+#nomination-form {
+  padding: 2em;
+  display: block;
+  text-align: center;
+}
+#nomination-form_name {
+  width: 70em;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: solid #23272B 0.3em;
+}
+#nomination-form_question {
+  width: 70em;
+  height: 15em;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: solid #23272B 0.3em;
+  resize: none;
+}
+#nomination-form_submit {
+  color: #FFFFFF;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  background-color: #000000;
+  border: solid #23272B 0.3em;
+  transition: 0.3s;
+}
+#nomination-form_submit:hover {
+  transition: 0.3s;
+  color: #7A7E83;
+  transform: scale(1.1);
+}
+/* Hall of Honor CSS */
+#button-container {
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+.button {
+  color: #FFFFFF;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin: 0.6vw;
+  background-color: #000000;
+  transition: 0.3s;
+  border: solid #23272B 0.3em;
+}
+.button:hover {
+  color: #7A7E83;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+#heritage-container {
+  color: #ffffff;
+  text-align: center;
+  margin: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+#heritage-container_portrait {
+  height: 30vw;
+  width: auto;
+}
+/* Universal Footer CSS */
+#footer_heading {
+  color: #FFFFFF;
+}
+.footer_text {
+  color: #FFFFFF;
+}
+#footer_hr {
+  width: 100%;
+  color: #FFFFFF;
+}
+#footer_footer-lower {
+  padding: 1em;
+  text-align: center;
+}
+/* Mobile CSS */
+@media (max-width: 575.98px) {
+  #index_text-container {
+    text-align: center;
+    margin: auto;
+    margin-top: 1vw;
+    color: #FFFFFF;
+    z-index: 2;
+    width: 30em;
+    padding: 2em;
+  }
+  #board_text-container {
+    text-align: left;
+    margin: auto;
+    margin-top: 1vw;
+    color: #FFFFFF;
+    z-index: 2;
+    width: 30em;
+    padding: 2em;
+  }
+  #sponsors_text-container {
+    text-align: center;
+    margin: 0em;
+    margin-top: 1vw;
+    color: #FFFFFF;
+    z-index: 2;
+    width: 40em;
+    padding: 2em;
+  }
+  #benefactors-list {
+    display: block;
+    padding: 2em;
+  }
+  #gold_benefactor-ribbon-gold {
+    width: 20em;
+    height: auto;
+    display: initial;
+  }
+  #silver_benefactor-ribbon-silver {
+    width: 20em;
+    height: auto;
+  }
+  #silver_benefactors-flex {
+    display: block;
+  }
+  #benefactors-flex_left {
+    float: none;
+  }
+  #benefactors-flex_right {
+    float: none;
+  }
+  #nomination-form {
+    padding: 0em;
+    display: block;
+    text-align: center;
+  }
+  #nomination-form_name {
+    width: 70%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: solid #23272B 0.3em;
+  }
+  #nomination-form_question {
+    width: 70%;
+    height: 15em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: solid #23272B 0.3em;
+    resize: none;
+  }
+  #nomination-form_submit {
+    color: #FFFFFF;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    background-color: #000000;
+    border: solid #23272B 0.3em;
+    transition: 0.3s;
+    margin-bottom: 1em;
+  }
+}
